@@ -1,19 +1,19 @@
 @-moz-keyframes rustlegently {
 	from {
-		left: 0px;
-		top: -0.33em;
-	}
-	25% {
 		left: +0.5em;
 		top: 0px;
 	}
-	50% {
+	25% {
 		left: 0px;
 		top: +0.33em;
 	}
-	75% {
+	50% {
 		left: -0.5em;
 		top: 0px;
+	}
+	75% {
+		left: 0px;
+		top: -0.33em;
 	}
 	to {
 		left: 0px;
@@ -22,20 +22,20 @@
 }
 @-webkit-keyframes rustlegently {
 	from {
-		left: 0px;
-		top: -0.33em;
-	}
-	25% {
 		left: +0.5em;
 		top: 0px;
 	}
-	50% {
+	25% {
 		left: 0px;
 		top: +0.33em;
 	}
-	75% {
+	50% {
 		left: -0.5em;
 		top: 0px;
+	}
+	75% {
+		left: 0px;
+		top: -0.33em;
 	}
 	to {
 		left: 0px;
@@ -106,8 +106,8 @@
 	position: relative;
 	-moz-animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
-	-moz-animation-duration: 0.1s;
-	-webkit-animation-duration: 0.1s;
+	-moz-animation-duration: 0.2s;
+	-webkit-animation-duration: 0.2s;
 	-moz-animation-direction: alternate;
 	-webkit-animation-direction: alternate;
 
