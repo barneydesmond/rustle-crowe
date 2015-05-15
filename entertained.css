@@ -1,0 +1,116 @@
+@-moz-keyframes rustlegently {
+	from {
+		left: 0px;
+		top: -0.33em;
+	}
+	25% {
+		left: +0.5em;
+		top: 0px;
+	}
+	50% {
+		left: 0px;
+		top: +0.33em;
+	}
+	75% {
+		left: -0.5em;
+		top: 0px;
+	}
+	to {
+		left: 0px;
+		top: -0.33em;
+	}
+}
+@-webkit-keyframes rustlegently {
+	from {
+		left: 0px;
+		top: -0.33em;
+	}
+	25% {
+		left: +0.5em;
+		top: 0px;
+	}
+	50% {
+		left: 0px;
+		top: +0.33em;
+	}
+	75% {
+		left: -0.5em;
+		top: 0px;
+	}
+	to {
+		left: 0px;
+		top: -0.33em;
+	}
+}
+
+@-moz-keyframes rustlehard {
+	from {
+		left: 0px;
+		top: -1em;
+	}
+	25% {
+		left: +1.5em;
+		top: 0px;
+	}
+	50% {
+		left: 0px;
+		top: +1em;
+	}
+	75% {
+		left: -1.5em;
+		top: 0px;
+	}
+	to {
+		left: 0px;
+		top: -1em;
+	}
+}
+@-webkit-keyframes rustlehard {
+	from {
+		left: 0px;
+		top: -1em;
+	}
+	25% {
+		left: +1.5em;
+		top: 0px;
+	}
+	50% {
+		left: 0px;
+		top: +1em;
+	}
+	75% {
+		left: -1.5em;
+		top: 0px;
+	}
+	to {
+		left: 0px;
+		top: -1em;
+	}
+}
+
+
+.rekt {
+	position: relative;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-duration: 0.1s;
+	-webkit-animation-duration: 0.1s;
+	-moz-animation-direction: alternate;
+	-webkit-animation-direction: alternate;
+
+	-moz-animation-name: rustlehard;
+	-webkit-animation-name: rustlehard;
+}
+
+.rustle {
+	position: relative;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-duration: 0.1s;
+	-webkit-animation-duration: 0.1s;
+	-moz-animation-direction: alternate;
+	-webkit-animation-direction: alternate;
+
+	-moz-animation-name: rustlegently;
+	-webkit-animation-name: rustlegently;
+}
